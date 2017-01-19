@@ -34,20 +34,6 @@ get_header(); ?>
 
 ?>
 
-<header class="entry-header">
-  <div class="container">
-  	<div class="row page-header">
-  		<div class="col-sm-6">
-				<h1 class="page-title"><?php the_title(); ?></h1>
-			</div>
-			<div class="col-sm-6">
-				<div class="breadcrumb-block">
-					<?php if (function_exists('savilerow_breadcrumbs')) savilerow_breadcrumbs(); ?>
-				</div>
-			</div>
-		</div>
-	</div>
-</header>
 
 <div class="wrap">
 	<div class="container">
@@ -57,7 +43,11 @@ get_header(); ?>
 
 						<?php get_template_part( 'content', 'page' ); ?>
 
-						<?php if( ! $isWoocommerce ): savilerow_content_nav( 'nav-below' ); endif; ?>
+						<!-- BOTÓN DE PREV -->
+
+						<!-- <?php if( ! $isWoocommerce ): savilerow_content_nav( 'nav-below' ); endif; ?> -->
+
+						<!-- FIN BOTÓN DE PREV -->
 
 						<?php
 							// If comments are open or we have at least one comment, load up the comment template
