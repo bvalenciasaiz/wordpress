@@ -47,7 +47,7 @@
 										<a href="<?php $my_theme = wp_get_theme(); echo $my_theme->get( 'ThemeURI' ); ?>">
 					          
 <p id="mercado"> 
-© 2016-2017 MAZO, S.L. – Todos los derechos reservados  
+© 2015-2017 MAZO, S.L. – Todos los derechos reservados  
 </p>
 
 					        <?php endif; ?>
